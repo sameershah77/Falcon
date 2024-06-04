@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Falcon</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="OpenNavigationDrawer">Navigation Drawer Open</string>
+    <string name="CloseNavigationDrawer">Navigation Drawer Open</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="point_wise_text">
+    • Communicate effectively with your team members.1\n
+    • Set clear goals and expectations.\n
+    • Always use our Falcon to stay organized.\n
+    • Be flexible and adaptable to change.
+    </string>
+
+
+</resources>

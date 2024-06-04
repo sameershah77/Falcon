@@ -1,0 +1,27 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Falcon" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/grey1</item>
+    </style>
+
+    <style name="Theme.Falcon" parent="Base.Theme.Falcon" />
+
+    <style name="myTheme" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/grey6</item>
+    </style>
+
+    <style name="drawer_animation">
+        <item name="android:windowEnterAnimation">@anim/drawer_slide_in</item>
+        <item name="android:windowExitAnimation">@anim/drawer_slide_out</item>
+    </style>
+
+    <style name="CustomMaterialDatePicker" parent="@style/ThemeOverlay.MaterialComponents.MaterialCalendar">
+        <!-- Change background color -->
+        <item name="android:backgroundTint">@color/black</item>
+        <!-- Change text color -->
+        <item name="android:textColorPrimary">@color/green1</item>
+    </style>
+    <style name="CustomFabStyle" parent="Widget.MaterialComponents.FloatingActionButton">
+        <item name="android:background">@drawable/rounded_rectangle</item> <!-- Apply custom shape -->
+    </style>
+</resources>

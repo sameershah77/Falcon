@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn = "navigation_view">
+    <group
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/drawer_discuss"
+            android:icon="@drawable/svg_discus"
+            android:title="Discuss"/>
+        <item
+            android:id="@+id/drawer_scheduling_and_remainder"
+            android:title="Scheduling And Remainder"
+            android:icon="@drawable/svg_schdule"/>
+        <item
+            android:id="@+id/drawer_storage"
+            android:title="Storage"
+            android:icon="@drawable/svg_storage"/>
+        <item
+            android:id="@+id/drawer_roadmap"
+            android:title="Roadmaps"
+            android:icon="@drawable/svg_roadmap"/>
+        <item
+            android:id="@+id/drawer_members"
+            android:title="Members"
+            android:icon="@drawable/svg_members"/>
+        <item
+            android:id="@+id/drawer_rewards"
+            android:title="Rewards"
+            android:icon="@drawable/svg_reward"/>
+        <item
+            android:id="@+id/drawer_history"
+            android:title="History"
+            android:icon="@drawable/svg_history"/>
+
+    </group>
+    <!-- Separate group for Log Out item -->
+    <group
+        android:id="@+id/menu_group_logout"
+        android:checkableBehavior="none">
+        <item
+            android:id="@+id/drawer_log_out"
+            android:title="Log Out"
+            android:visible="true"/> <!-- Initially hide from display -->
+    </group>
+
+
+</menu>

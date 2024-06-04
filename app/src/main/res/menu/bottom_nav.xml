@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/bottom_home"
+        android:icon="@drawable/svg_home"
+        android:title="Home" />
+
+    <item
+        android:id="@+id/bottom_project"
+        android:icon="@drawable/svg_project"
+        android:title="Project"
+        />
+
+    <item
+        android:id="@+id/bottom_task"
+        android:icon="@drawable/svg_task"
+        android:title="Task"/>
+
+    <item
+        android:id="@+id/bottom_progress"
+        android:icon="@drawable/svg_progress"
+        android:title="Progress" />
+    <item
+        android:id="@+id/bottom_profile"
+        android:icon="@drawable/svg_profile"
+        android:title="Profile" />
+
+</menu>

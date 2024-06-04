@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "537509837202",
+    "project_id": "falcon-84476",
+    "storage_bucket": "falcon-84476.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:537509837202:android:df3085d0028f512ee6a94b",
+        "android_client_info": {
+          "package_name": "com.example.falcon"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB_i_aNRj68cxJpxkxSJcTzw5101AyzwjI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

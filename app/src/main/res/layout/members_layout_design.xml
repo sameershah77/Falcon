@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/_60sdp"
+    android:background="@drawable/member_design"
+    android:paddingTop="0dp"
+    android:paddingBottom="0dp"
+    android:id="@+id/member_card_id"
+    android:orientation="horizontal"
+    android:layout_marginStart="@dimen/_4sdp"
+    android:layout_marginEnd="@dimen/_4sdp"
+    android:layout_marginTop="@dimen/_2sdp"
+    android:layout_marginBottom="@dimen/_2sdp">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/layout_member_image"
+        android:layout_width="@dimen/_40sdp"
+        android:layout_height="@dimen/_40sdp"
+        android:src="@drawable/boy"
+        app:civ_border_color="@color/white2"
+        android:layout_margin="@dimen/_10sdp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/layout_member_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_7sdp"
+        android:text="Sameer Shah"
+        android:textAllCaps="true"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:layout_marginTop="@dimen/_2sdp"
+        android:textSize="@dimen/_18ssp"
+        app:layout_constraintStart_toEndOf="@+id/layout_member_image"
+        app:layout_constraintTop_toTopOf="@+id/layout_member_image" />
+
+    <TextView
+        android:id="@+id/layout_member_email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sameershah9167@gmail.com"
+        android:textColor="@color/white2"
+        android:textSize="@dimen/_10ssp"
+        app:layout_constraintStart_toStartOf="@+id/layout_member_name"
+        app:layout_constraintTop_toBottomOf="@+id/layout_member_name" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
